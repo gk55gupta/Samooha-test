@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+    padding: 50px;
+    max-width: 500px;
+    box-shadow: 0 0 8px 1px #ddd;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f8f8f8;
+    margin: 15px 0;
+    width: 100%;
+}
+
+small {
+    margin: 15px 0;
+    color: #888;
+}
+
+button {
+    background: #97b1c6;
+    border: 0;
+    color: #fff;
+    outline: 0 !important;
+    padding: 12px 25px;
+    border-radius: 4px;
+    margin: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn-valid {
+    background-color: rgb(0, 162, 255);
+}
